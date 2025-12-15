@@ -1,0 +1,53 @@
+#form-container {
+    width: 70%;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 7px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+form input:focus,
+form textarea:focus {
+    box-shadow: 0 0 7px #555555;
+    border: 1px solid #fffcf5;
+}
+
+form textarea {
+    min-height: 50px;
+    max-height: 350px;
+}
+
+a {
+    color: #dddddd;
+    font-weight: 600;
+}
+a:hover {
+    color: #bbbbbb;
+}
+
+.authErrors {
+    margin-top: 20px;
+    background-color: #882222;
+    border: 1px solid #ff0000;
+    padding: 12px;
+    border-radius: 5px;
+    color: #ccaaaa;
+}
+.authErrors div::before {
+    content: "•";
+    color: #ccaaaa;
+    font-size: 1em;
+    margin-right: 10px;
+}

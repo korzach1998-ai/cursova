@@ -1,0 +1,114 @@
+#search-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.search-container,
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.search-container form,
+.filter-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.search-container input[type="text"] {
+    max-width: 100%;
+    min-width: 180px;
+    padding: 10px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.search-container button {
+    background-color: #555555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 30%;
+    align-self: start;
+    min-width: 100px;
+}
+
+.search-container button:hover {
+    background-color: #6e6e6e;
+}
+
+#category-filter-box {
+    background-color: #3a3a3a;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 210px;
+}
+
+#category-filter-box h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#category-filter-box select {
+    padding: 8px 12px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+#category-filter-box select:hover {
+    border-color: #3399ff;
+}
+
+#category-filter-box select:focus {
+    outline: none;
+    border-color: #3399ff;
+}
+
+@media (max-width: 650px) {
+    #search-filter {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search-container,
+    .filter-container {
+        flex: none;
+        width: 100%;
+    }
+
+    #category-filter-box select {
+        width: 100%;
+    }
+
+    .search-container input[type="text"] {
+        width: 100%;
+    }
+
+    .search-container form {
+        gap: 0;
+        align-items: start;
+    }
+}

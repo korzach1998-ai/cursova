@@ -1,0 +1,68 @@
+.add-btn-container {
+    margin: 20px 0 15px 0;
+}
+.add-btn-container a {
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #666666;
+    border: 2px solid #777777;
+    color: #fffefb;
+    border-radius: 7px;
+    padding: 7px 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.add-btn-container a:hover {
+    background-color: #c1c1c1;
+    border-color: #777777;
+    transform: scale(1.05);
+}
+
+.edit-btn-container a {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    background-color: #afac00;
+    border: 2px solid #fbff00;
+    border-radius: 7px;
+    padding: 6px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.edit-btn-container a:hover {
+    color: white;
+    background-color: #776d00;
+    border-color: #d2c400;
+    transform: scale(1.05);
+}
+
+.category-delete-form button,
+.product-delete-form button,
+.back-btn-container a,
+.view-btn-container a {
+    margin: 0;
+    text-decoration: none;
+    border: 2px solid #d20000;
+    color: white;
+    background-color: #870000;
+    border-radius: 7px;
+    padding: 5px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.category-delete-form button:hover,
+.product-delete-form button:hover {
+    background-color: rgb(98, 0, 0);
+}
+
+.back-btn-container a,
+.view-btn-container a {
+    background-color: #7b7b7b;
+    border-color: #525252;
+    text-decoration: none;
+}
+
+.back-btn-container a:hover,
+.view-btn-container a:hover {
+    background-color: #4c4c4c;
+}
